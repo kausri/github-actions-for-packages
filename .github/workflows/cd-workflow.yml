@@ -69,5 +69,5 @@ jobs:
         password: ${{secrets.GITHUB_TOKEN}}
 #         registry: docker.pkg.github.com
         registry: ghcr.io
-        repository: kausri/github-actions-for-packages/tic-tac-toe
+        repository: kausri/image-repo/tic-tac-toe
         tag_with_sha: true
